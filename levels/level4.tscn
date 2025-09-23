@@ -6,33 +6,38 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Block3" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(619, 438)
+position = Vector2(698, 232)
+mass = 3.824
 
 [node name="Block7" parent="." instance=ExtResource("1_cqjvr")]
 modulate = Color(1, 0, 0, 1)
-position = Vector2(662, 373)
+position = Vector2(656, 441)
 gravity_scale = 1.0
 type_id = 1
 
 [node name="Block6" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(686, 439)
+position = Vector2(573, 454)
 
 [node name="Block10" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(507, 375)
+position = Vector2(510, 230)
 scale = Vector2(0.959024, 1.02258)
 
 [node name="Block17" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(394, 440)
+position = Vector2(480, 457)
 
 [node name="Block21" parent="." instance=ExtResource("1_cqjvr")]
 modulate = Color(0, 1, 0, 1)
-position = Vector2(353, 372)
+position = Vector2(400, 392)
 gravity_scale = 1.0
 type_id = 2
 
 [node name="Block24" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(326, 439)
+position = Vector2(350, 453)
 
 [node name="Shelf" parent="." instance=ExtResource("2_3cb6x")]
 position = Vector2(501, 505)
-scale = Vector2(0.962981, 2.72544)
+scale = Vector2(0.962981, 1.6032001)
+
+[node name="Shelf2" parent="." instance=ExtResource("2_3cb6x")]
+position = Vector2(511.00003, 176)
+scale = Vector2(0.962981, 1.6032001)

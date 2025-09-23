@@ -1,0 +1,98 @@
+[gd_scene load_steps=3 format=3 uid="uid://bukgvbjhmu3j7"]
+
+[ext_resource type="PackedScene" uid="uid://b1tf78krin8me" path="res://Block.tscn" id="1_kvvkh"]
+[ext_resource type="PackedScene" uid="uid://dfcdnlonauemn" path="res://Shelf.tscn" id="2_aaqj5"]
+
+[node name="level3" type="Node2D"]
+
+[node name="Block" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(367, 192)
+mass = 1.956
+gravity_scale = 1.0
+
+[node name="Block2" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(561, 188)
+gravity_scale = 1.0
+
+[node name="Block8" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(592, 505)
+mass = 2.924
+gravity_scale = 0.885
+
+[node name="Block11" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(602, 261)
+gravity_scale = 1.0
+
+[node name="Block9" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(637, 437)
+gravity_scale = 0.875
+
+[node name="Block3" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(396, 115)
+mass = 2.558
+gravity_scale = 1.0
+
+[node name="Block4" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(499, 99)
+gravity_scale = 1.0
+
+[node name="Block5" parent="." instance=ExtResource("1_kvvkh")]
+position = Vector2(428, 35)
+mass = 1.71
+gravity_scale = 1.0
+
+[node name="Block6" parent="." instance=ExtResource("1_kvvkh")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(514, 560)
+gravity_scale = 1.0
+type_id = 1
+
+[node name="Block7" parent="." instance=ExtResource("1_kvvkh")]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(385, 550)
+gravity_scale = 1.0
+type_id = 2
+
+[node name="Shelf" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(353, 367.00003)
+rotation = 1.5707964
+scale = Vector2(0.665, 0.665)
+
+[node name="Shelf2" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(547, 360.00006)
+rotation = 1.5707964
+scale = Vector2(0.665, 0.665)
+
+[node name="Shelf5" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(598, 600)
+scale = Vector2(0.25695485, -0.75309145)
+
+[node name="Shelf7" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(684, 566)
+scale = Vector2(0.25695485, -0.75309145)
+
+[node name="Shelf10" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(767, 531.00006)
+scale = Vector2(0.25695485, -0.75309145)
+
+[node name="Shelf11" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(767, 531.00006)
+scale = Vector2(0.25695485, -0.75309145)
+
+[node name="Shelf8" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(491.99997, 276)
+rotation = -0.3067004
+scale = Vector2(0.2298322, -0.63713115)
+
+[node name="Shelf9" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(396.00006, 399.00006)
+rotation = 0.66265273
+scale = Vector2(0.2298322, -0.63713115)
+
+[node name="Shelf6" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(541.00006, 636)
+scale = Vector2(0.25695485, -0.75309145)
+
+[node name="Shelf4" parent="." instance=ExtResource("2_aaqj5")]
+position = Vector2(316, 605)
+scale = Vector2(0.475, 0.475)
