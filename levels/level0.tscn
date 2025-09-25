@@ -36,3 +36,4 @@ position = Vector2(326, 439)
 [node name="Shelf" parent="." instance=ExtResource("2")]
 position = Vector2(501, 505)
 scale = Vector2(0.962981, 2.72544)
+script = null

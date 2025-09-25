@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://dfcdnlonauemn"]
+[gd_scene load_steps=4 format=3 uid="uid://dfcdnlonauemn"]
 
 [ext_resource type="Texture2D" uid="uid://bwhnorn6ulfwp" path="res://icon.png" id="1"]
+[ext_resource type="Script" uid="uid://e3lncvjxs6ek" path="res://shelf.gd" id="1_dc3cn"]
 
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(390, 20)
 
 [node name="Shelf" type="StaticBody2D"]
+script = ExtResource("1_dc3cn")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(6.09375, 0.25)

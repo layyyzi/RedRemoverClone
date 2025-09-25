@@ -8,10 +8,12 @@
 [node name="Shelf" parent="." instance=ExtResource("1_p1d34")]
 position = Vector2(278, 459)
 scale = Vector2(0.69, 0.69)
+script = null
 
 [node name="Shelf2" parent="." instance=ExtResource("1_p1d34")]
 position = Vector2(642, 539)
 scale = Vector2(0.6, 0.6)
+script = null
 
 [node name="Block" parent="." instance=ExtResource("2_qyb5k")]
 modulate = Color(1, 0, 0, 1)

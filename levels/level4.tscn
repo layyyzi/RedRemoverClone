@@ -6,38 +6,63 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Block3" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(698, 232)
-mass = 3.824
+position = Vector2(883, 357)
+mass = 1.144
+gravity_scale = 1.0
+shape_id = 1
 
 [node name="Block7" parent="." instance=ExtResource("1_cqjvr")]
 modulate = Color(1, 0, 0, 1)
-position = Vector2(656, 441)
+position = Vector2(792, 392)
+mass = 0.01
 gravity_scale = 1.0
 type_id = 1
+shape_id = 1
 
 [node name="Block6" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(573, 454)
+position = Vector2(109, 362)
+mass = 1.308
+gravity_scale = 1.0
+shape_id = 1
 
 [node name="Block10" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(510, 230)
+position = Vector2(544, 189)
 scale = Vector2(0.959024, 1.02258)
+gravity_scale = 1.0
 
 [node name="Block17" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(480, 457)
+position = Vector2(444, 191)
+gravity_scale = 1.0
 
 [node name="Block21" parent="." instance=ExtResource("1_cqjvr")]
 modulate = Color(0, 1, 0, 1)
-position = Vector2(400, 392)
+position = Vector2(213, 399)
+mass = 0.064
 gravity_scale = 1.0
 type_id = 2
+shape_id = 1
 
 [node name="Block24" parent="." instance=ExtResource("1_cqjvr")]
-position = Vector2(350, 453)
+position = Vector2(338, 209)
+gravity_scale = 1.0
+
+[node name="Block25" parent="." instance=ExtResource("1_cqjvr")]
+position = Vector2(630, 202)
+gravity_scale = 1.0
 
 [node name="Shelf" parent="." instance=ExtResource("2_3cb6x")]
-position = Vector2(501, 505)
+position = Vector2(501.00003, 604)
 scale = Vector2(0.962981, 1.6032001)
+script = null
 
 [node name="Shelf2" parent="." instance=ExtResource("2_3cb6x")]
-position = Vector2(511.00003, 176)
-scale = Vector2(0.962981, 1.6032001)
+position = Vector2(186.00002, 455)
+rotation = 0.37131488
+scale = Vector2(0.67992663, 1.6649141)
+script = null
+
+[node name="Shelf3" parent="." instance=ExtResource("2_3cb6x")]
+position = Vector2(813, 448.99997)
+rotation = -0.4127609
+scale = Vector2(0.67992663, 1.6649141)
+script = null
