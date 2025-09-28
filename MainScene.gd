@@ -6,7 +6,7 @@ extends Node2D
 # var b = "text"
 var current_level
 
-var level_files=["level0","level1","level2","level3","level4","level5" ]
+var level_files=["level0","level1","level2","level3","level4","level5", "level6" ]
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

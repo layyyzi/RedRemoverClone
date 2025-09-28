@@ -1,0 +1,68 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqn25htdlrkc4"]
+
+[ext_resource type="PackedScene" uid="uid://b1tf78krin8me" path="res://Block.tscn" id="1_gadkw"]
+[ext_resource type="PackedScene" uid="uid://dfcdnlonauemn" path="res://Shelf.tscn" id="2_ipvgf"]
+
+[node name="level6" type="Node2D"]
+
+[node name="Block" parent="." instance=ExtResource("1_gadkw")]
+modulate = Color(1, 0, 0, 1)
+position = Vector2(337, 263)
+gravity_scale = 1.0
+type_id = 1
+shape_id = 1
+
+[node name="Block3" parent="." instance=ExtResource("1_gadkw")]
+position = Vector2(421, 304)
+gravity_scale = 1.0
+
+[node name="Block6" parent="." instance=ExtResource("1_gadkw")]
+position = Vector2(664, 199)
+mass = 0.994
+gravity_scale = 1.0
+
+[node name="Block7" parent="." instance=ExtResource("1_gadkw")]
+position = Vector2(666, 248)
+scale = Vector2(1, 0.33619258)
+mass = 11.186
+gravity_scale = -0.777
+
+[node name="Block4" parent="." instance=ExtResource("1_gadkw")]
+position = Vector2(571, 493)
+scale = Vector2(0.6638626, 1)
+
+[node name="Block5" parent="." instance=ExtResource("1_gadkw")]
+position = Vector2(496, 490)
+scale = Vector2(0.6638626, 1)
+mass = 19.123
+
+[node name="Block2" parent="." instance=ExtResource("1_gadkw")]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(791, 271)
+gravity_scale = 1.0
+type_id = 2
+shape_id = 1
+
+[node name="Shelf" parent="." instance=ExtResource("2_ipvgf")]
+position = Vector2(746.99994, 347.99997)
+rotation = -0.31489223
+scale = Vector2(0.7226127, 1.5454609)
+script = null
+
+[node name="Shelf2" parent="." instance=ExtResource("2_ipvgf")]
+position = Vector2(338.99997, 334)
+rotation = 0.42109826
+scale = Vector2(0.7226127, 1.5454609)
+script = null
+
+[node name="Shelf3" parent="." instance=ExtResource("2_ipvgf")]
+position = Vector2(455.99997, 504.99994)
+rotation = 1.5868028
+scale = Vector2(0.4981981, 1.602593)
+script = null
+
+[node name="Shelf4" parent="." instance=ExtResource("2_ipvgf")]
+position = Vector2(614, 507.99994)
+rotation = 1.5868028
+scale = Vector2(0.4981981, 1.602593)
+script = null
