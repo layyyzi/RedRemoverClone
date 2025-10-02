@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://bwv8tampcogl1"]
+[gd_scene load_steps=3 format=3 uid="uid://bwv8tampcogl1"]
+
+[ext_resource type="PackedScene" uid="uid://b1tf78krin8me" path="res://Block.tscn" id="1_pwt4q"]
+[ext_resource type="PackedScene" uid="uid://dfcdnlonauemn" path="res://Shelf.tscn" id="2_6xkyh"]
 
 [node name="level8" type="Node2D"]
+
+[node name="Block" parent="." instance=ExtResource("1_pwt4q")]
+position = Vector2(773, 248)
+
+[node name="Shelf" parent="." instance=ExtResource("2_6xkyh")]
+position = Vector2(413, 342)
+script = null

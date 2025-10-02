@@ -6,8 +6,8 @@
 [node name="level7" type="Node2D"]
 
 [node name="Shelf" parent="." instance=ExtResource("1_6xjnl")]
-position = Vector2(321.99997, 424)
-scale = Vector2(0.46524337, 1)
+position = Vector2(299, 424.00003)
+scale = Vector2(0.69194186, -0.80737996)
 script = null
 
 [node name="Shelf2" parent="." instance=ExtResource("1_6xjnl")]
@@ -16,36 +16,85 @@ scale = Vector2(0.46524337, 1)
 script = null
 
 [node name="Shelf3" parent="." instance=ExtResource("1_6xjnl")]
-position = Vector2(697, 374.99997)
+position = Vector2(702, 308)
 rotation = -1.5709208
+scale = Vector2(0.9452379, 1)
+script = null
+
+[node name="Shelf4" parent="." instance=ExtResource("1_6xjnl")]
+position = Vector2(598.00006, 137)
+rotation = -3.3592525
+scale = Vector2(0.46524337, 1)
+script = null
+
+[node name="Shelf5" parent="." instance=ExtResource("1_6xjnl")]
+position = Vector2(435.00003, 222.00002)
+rotation = -3.84849
+scale = Vector2(0.46524337, 1)
+script = null
+
+[node name="Shelf6" parent="." instance=ExtResource("1_6xjnl")]
+position = Vector2(91, 378.00003)
+rotation = -5.6865106
 scale = Vector2(0.46524337, 1)
 script = null
 
 [node name="Block5" parent="." instance=ExtResource("2_j0g86")]
-position = Vector2(386, 377)
+position = Vector2(320, 376)
+gravity_scale = 1.0
+
+[node name="Block8" parent="." instance=ExtResource("2_j0g86")]
+position = Vector2(554, 89)
+rotation = 0.68535554
+scale = Vector2(0.4919969, 2.498045)
+
+[node name="Block11" parent="." instance=ExtResource("2_j0g86")]
+position = Vector2(421.00006, 168.99998)
+rotation = 0.522185
+scale = Vector2(0.4919969, 2.498045)
+gravity_scale = 1.0
+
+[node name="Block12" parent="." instance=ExtResource("2_j0g86")]
+position = Vector2(498.00003, 465)
+rotation = -0.93548197
+scale = Vector2(0.4919969, 2.498045)
+
+[node name="Block9" parent="." instance=ExtResource("2_j0g86")]
+position = Vector2(216.00002, 257)
+rotation = -0.023783915
+scale = Vector2(0.4919969, 2.498045)
+gravity_scale = 1.0
+
+[node name="Block10" parent="." instance=ExtResource("2_j0g86")]
+position = Vector2(335, 263.99997)
+rotation = -0.023783915
+scale = Vector2(0.4919969, 2.498045)
 gravity_scale = 1.0
 
 [node name="Block7" parent="." instance=ExtResource("2_j0g86")]
-position = Vector2(403, 310)
-gravity_scale = 1.0
+position = Vector2(672, 68)
+mass = 1.71
+gravity_scale = 1.777
+shape_id = 1
 
 [node name="Block6" parent="." instance=ExtResource("2_j0g86")]
-position = Vector2(287, 373)
+position = Vector2(224, 370)
 gravity_scale = 1.0
 
 [node name="Block2" parent="." instance=ExtResource("2_j0g86")]
-position = Vector2(336, 294)
+position = Vector2(274, 306)
 gravity_scale = 1.0
 
 [node name="Block3" parent="." instance=ExtResource("2_j0g86")]
-modulate = Color(0, 1, 0, 1)
-position = Vector2(338, 153)
+modulate = Color(1, 0, 0, 1)
+position = Vector2(293, 157)
 mass = 0.511
 gravity_scale = 1.0
-type_id = 2
+type_id = 1
+shape_id = 1
 
 [node name="Block4" parent="." instance=ExtResource("2_j0g86")]
-modulate = Color(1, 0, 0, 1)
-position = Vector2(338, 222)
+modulate = Color(0, 1, 0, 1)
+position = Vector2(277, 235)
 gravity_scale = 1.0
-type_id = 1
+type_id = 2
