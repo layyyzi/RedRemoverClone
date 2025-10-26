@@ -6,25 +6,42 @@
 [node name="level8" type="Node2D"]
 
 [node name="Block" parent="." instance=ExtResource("1_pwt4q")]
+position = Vector2(637, 502)
+mass = 0.153
+gravity_scale = 1.0
+
+[node name="Block6" parent="." instance=ExtResource("1_pwt4q")]
+position = Vector2(724, 565)
+mass = 0.153
+gravity_scale = 1.0
+
+[node name="Block10" parent="." instance=ExtResource("1_pwt4q")]
+position = Vector2(479, 608)
+mass = 1.04
+shape_id = 2
+
+[node name="Block9" parent="." instance=ExtResource("1_pwt4q")]
 modulate = Color(1, 0, 0, 1)
-position = Vector2(590, 490)
-mass = 0.765
-gravity_scale = 0.689
+position = Vector2(533, 555)
+mass = 1.511
+gravity_scale = 1.0
 type_id = 1
+shape_id = 1
 
 [node name="Block2" parent="." instance=ExtResource("1_pwt4q")]
 position = Vector2(433, 412)
 gravity_scale = 1.0
 
 [node name="Block5" parent="." instance=ExtResource("1_pwt4q")]
-position = Vector2(763, 427)
+position = Vector2(780, 412)
 gravity_scale = 1.0
 
 [node name="Block3" parent="." instance=ExtResource("1_pwt4q")]
-modulate = Color(0, 1, 0, 1)
-position = Vector2(866, 396)
-gravity_scale = 1.0
-type_id = 2
+modulate = Color(1, 0, 0, 1)
+position = Vector2(874, 378)
+mass = 1.495
+gravity_scale = 2.087
+type_id = 1
 shape_id = 1
 
 [node name="Block7" parent="." instance=ExtResource("1_pwt4q")]
@@ -40,18 +57,19 @@ shape_id = 1
 [node name="Block4" parent="." instance=ExtResource("1_pwt4q")]
 modulate = Color(0, 1, 0, 1)
 position = Vector2(344, 382)
-gravity_scale = 1.0
+mass = 7.478
+gravity_scale = 1.131
 type_id = 2
 shape_id = 1
 
 [node name="Shelf" parent="." instance=ExtResource("2_6xkyh")]
-position = Vector2(372.99997, 462.99997)
+position = Vector2(357, 452.00003)
 rotation = 0.2801193
 scale = Vector2(0.74663264, 1.0803789)
 script = null
 
 [node name="Shelf4" parent="." instance=ExtResource("2_6xkyh")]
-position = Vector2(408.00003, 239)
+position = Vector2(378.00003, 223)
 rotation = 0.2801193
 scale = Vector2(0.74663264, 1.0803789)
 script = null
@@ -63,13 +81,12 @@ scale = Vector2(0.74663264, 1.0803789)
 script = null
 
 [node name="Shelf3" parent="." instance=ExtResource("2_6xkyh")]
-position = Vector2(616, 618)
-rotation = 0.008792251
+position = Vector2(620, 614.99994)
 scale = Vector2(0.65551734, -1.2292976)
 script = null
 
 [node name="Shelf2" parent="." instance=ExtResource("2_6xkyh")]
-position = Vector2(836.00006, 466)
+position = Vector2(865.00006, 440.99997)
 rotation = -0.35072795
 scale = Vector2(0.6455696, 1)
 script = null
